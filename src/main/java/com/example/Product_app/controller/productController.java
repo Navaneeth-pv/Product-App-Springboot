@@ -33,4 +33,9 @@ public class productController {
         return "Welcome to View all Products";
     }
 
+    @PostMapping("/delete")
+    public String ProductDelete(){
+        return "Welcome to Product delete";
+    }
+
 }
